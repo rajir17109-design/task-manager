@@ -5,7 +5,7 @@ authentication and SQLite database.
 
 # Tech Stack
 - FastAPI (Python)
-- SQLite + SQLAlchemy
+- Postgresql + SQLAlchemy
 - JWT Authentication (python-jose)
 - Password Hashing (bcrypt)
 - Plain HTML/CSS/JS Frontend (served via Jinja2)
@@ -44,10 +44,10 @@ authentication and SQLite database.
 
 # Environment Variables
    SECRET_KEY — JWT secret key
-   DATABASE_URL — SQLite URL
+   DATABASE_URL — Postgresql URL
 
 # Deployment
-   Live at: (will update after deployment)
+   Live at: https://task-manager-2j4y.onrender.com
 
 # GitHub
    https://github.com/rajir17109-design/task-manager
@@ -55,7 +55,5 @@ authentication and SQLite database.
 # Important Note
 - App deployed on Render free tier
 - First load may take 50 seconds (cold start)
-- Please register a new account to test
-- SQLite resets on Render restart — 
-  for production PostgreSQL recommended
-     
+
+  
