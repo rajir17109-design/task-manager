@@ -51,3 +51,11 @@ authentication and SQLite database.
 
 # GitHub
    https://github.com/rajir17109-design/task-manager
+
+# Important Note
+- App deployed on Render free tier
+- First load may take 50 seconds (cold start)
+- Please register a new account to test
+- SQLite resets on Render restart — 
+  for production PostgreSQL recommended
+     
