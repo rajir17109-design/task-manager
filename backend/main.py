@@ -32,7 +32,7 @@ templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "frontend", "templa
 app.include_router(auth_router)
 app.include_router(task_router)
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def home(request: Request):
     return templates.TemplateResponse(request, "index.html")
 
